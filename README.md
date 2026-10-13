@@ -1,4 +1,4 @@
-# Floating Island Sanctuary
+# Island in the Sky
 
 An original, peaceful 3D sanctuary above a sea of clouds, by [spinjitsu12](https://github.com/spinjitsu12).
 
@@ -38,3 +38,5 @@ python3 tools/pipeline.py render
 | `docs` | Technical architecture |
 
 [ART_DIRECTION.md](ART_DIRECTION.md), [ASSET_CATALOG.md](ASSET_CATALOG.md), and [ROADMAP.md](ROADMAP.md) describe the project's standards and staged goals. External tool licensing is documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+[RELEASE_PLAN.md](RELEASE_PLAN.md) outlines a desktop-first game, an optional website, and future distribution terms. It is a plan, not an available game release.
