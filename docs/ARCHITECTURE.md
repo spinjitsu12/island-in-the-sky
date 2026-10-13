@@ -14,6 +14,12 @@ Resources own independent sample arrays and reject malformed/nonfinite data. A f
 
 The Blender island is an art calibration asset. It is not generated from `TerrainChunkData` yet. Keeping that distinction explicit avoids coupling future terrain tools to a static GLB topology. Stage 3 must add and validate a mesh adapter before claiming dynamically sculptable terrain.
 
+## Future online boundary — design intent only
+
+Online visits to other players' islands are planned for a later stage. Future save data should identify islands and assets with stable IDs and versioned declarative data, independently of scene nodes and render meshes. A future visiting service can then validate and distribute published island snapshots without loading arbitrary remote scripts or executable scenes.
+
+The proposed initial visit mode is read-only: the owner's local editable island, published snapshot, and visitor session are separate states. Publication/access changes belong to the owner and must be checked by the service. Live co-presence, shared editing, and synchronization are not selected or implemented. Keep local creation and persistence independent of network availability. This section introduces no runtime networking or backend dependency.
+
 ## Rendering
 
 Forward+ is the desktop review baseline; the runner selects native Metal on macOS and Vulkan elsewhere. The sky shader is a lightweight calibration atmosphere, not final volumetric clouds. SSAO/glow are enabled only for Forward+. Mobile and Compatibility need later parity review. The orbit camera eases with an exponential response independent of frame rate and bounds pitch/distance. UI consumes no orbit input.

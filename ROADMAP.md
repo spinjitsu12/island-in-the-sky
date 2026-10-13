@@ -5,5 +5,6 @@
 3. **Terrain prototype:** adjacent chunks, sculpting continuity, local mesh rebuilds, reversible placement, versioned save data.
 4. **Sanctuary slice:** one satisfying, peaceful transformation with a deliberately small content set and accessible interface.
 5. **Production:** validated content expansion, quality settings, platform exports, usability, and release checks.
+6. **Future online island visits — planned, deferred:** explore other players' published sanctuaries with owner-controlled access; preserve offline creation. Snapshot visits are the proposed first version; live co-presence remains undecided.
 
 Later stages describe intent, not implemented functionality. No combat, survival pressure, unnecessary grind, or dense management is planned.
